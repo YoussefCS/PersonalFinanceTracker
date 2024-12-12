@@ -1,0 +1,142 @@
+/* General styles */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #ffffff;
+  background-color: #000000;
+}
+
+/* Logo styles */
+.logo-container {
+  display: flex;
+  align-items: center; 
+}
+
+.logo {
+  width: 50px; 
+  height: auto; 
+  margin-right: 0.5rem; 
+}
+
+.logo-text {
+  font-size: 1.5rem; 
+  color: rgb(255, 255, 255);
+}
+
+/* Header styles */
+header {
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: left;
+}
+
+header .logo {
+  font-size: 1rem;
+}
+
+/* Nav styles*/
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  color: rgb(255, 255, 255); 
+  text-decoration: none; 
+  font-size: 1rem; 
+  transition: color 0.3s; 
+}
+
+nav ul li a:hover {
+  color: #1FC978; 
+}
+
+/* Description styles */
+.motto {
+  text-align: center;
+  padding: 2rem;
+  background-color: #000000;
+  text-align: left;
+  padding-bottom: 8rem;
+}
+
+.reg-button {
+  background-color:#1FC978; 
+  color: white; 
+  border: none; 
+  border-radius: 5px; 
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem; 
+  cursor: pointer; 
+  margin-top: 1rem; 
+  transition: background-color 0.3s; 
+}
+
+.reg-button:hover {
+  background-color:#0c7241; 
+}
+
+.preview-section {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  padding: 2rem;
+  background-color: #EBE8E8;
+}
+
+.preview-post {
+  background-color: white;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  transition: transform 0.3s ease-in-out;
+  display: flex; 
+  flex-direction: column; 
+  align-items: center; 
+  justify-content: center; 
+}
+
+.preview-post img {
+  width: 75px; 
+  height: 75px; 
+  border-radius: 10px;
+  object-fit: cover; 
+  margin-bottom: 1rem; 
+}
+
+.preview-post h2 {
+  font-size: 1.5rem;
+  color: #1FC978;
+  text-align: center;
+}
+
+.preview-post p {
+  font-size: 1rem;
+  color: #555;
+}
+
+.preview-post:hover {
+  transform: scale(1.05);
+}
+
+/* Footer styles */
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #EBE8E8;
+  color: black;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
